@@ -1,0 +1,163 @@
+body {
+    line-height: 1.5;
+}
+
+/*=== style for header-top ===*/
+#header-top-content {
+    color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+nav ul li {
+    padding-right: 50px;
+}
+
+
+
+/*=== style for main ===*/
+/*--- style for post ---*/
+
+ul#post-item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+#post #title-strong {
+    display: inline-block;
+    background-color: #23282d;
+    color: #eeeeee;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/*--- style for thumb---*/
+#thumb-content h3 {
+    display: inline-block;
+    background-color: #4db2ec;
+    color: #eeeeee;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+#thumb-content #content {
+    display: flex;
+}
+
+#thumb-sidebar {
+    display: flex;
+}
+
+/*--- style for content ---*/
+
+.info-title {
+    color: rgb(77, 178, 236);
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    font-size: 13px;
+}
+
+.info-author {
+    margin-bottom: 10px;
+}
+
+.author {
+    color: black;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.day {
+    color: #aaaaaa;
+}
+
+.content-thumb {
+    padding-right: 30px;
+}
+
+#content {
+    margin-bottom: 30px;
+}
+
+
+/*--- style for sidebar ---*/
+
+#sidebar h3 {
+    display: inline-block;
+    background-color: #ff2d2d;
+    color: white;
+    padding: 5px 15px;
+}
+
+#ads-logo {
+    margin-bottom: 30px;
+}
+
+.name-num {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-num:hover {
+    color: red;
+}
+
+/*=== style for footer ===*/
+
+#footer {
+    background-color: #2e2f30;
+    color: white;
+}
+
+#footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#footer-logo,
+#footer-information,
+#footer-follow {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer-logo {
+    flex-basis: 20%;
+}
+
+#footer-follow {
+    flex-basis: 20%;
+}
+
+#footer-information {
+    flex-basis: 60%;
+}
+
+/*--- style for footer-bottom ---*/
+
+#footer-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-bottom {
+    background-color: #222527;
+
+}

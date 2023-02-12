@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector important</title>
+</head>
+
+<body>
+    <style>
+        #text {
+            color: blue;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            /* Màu nền */
+            border: none;
+            /* Không có đường viền */
+            color: white;
+            /* Màu chữ */
+            padding: 15px 32px;
+            /* Khoảng cách trong và giữa các bên */
+            text-align: center;
+            /* Canh chữ giữa */
+            text-decoration: none;
+            /* Không có gạch chân chữ */
+            display: inline-block;
+            /* Hiển thị nút như một khối dòng trong */
+            font-size: 16px;
+            /* Kích thước chữ */
+            margin: 4px 2px;
+            /* Khoảng cách giữa các nút */
+            cursor: pointer;
+            /* Con trỏ chuột trông giống như một nút */
+        }
+
+        
+            .button:hover {
+                background-color: #3e8e41;
+            }
+        
+    </style>
+    <h1>Selector important</h1>
+    <div id="text">
+        <p style="color: red;">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <button class="button">Login </button>
+</body>
+
+</html>

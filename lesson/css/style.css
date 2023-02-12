@@ -1,0 +1,16 @@
+body{
+    font-size: 14px;
+}
+
+/* ====header===== */
+#header {
+    color: red;
+}
+
+/* ---Menu--- */
+/* set back ground  */
+ul#main-menu {
+    background-color: red;
+}
+
+/* ---Search--- */

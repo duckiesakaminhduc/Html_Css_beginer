@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+</head>
+
+<body>
+    <style>
+        #wrapper {
+            width: 960px;
+            margin: 0px auto;
+            color: black;
+            font-size: 20px;
+        }
+
+        #header,
+        #footer {
+            background: green;
+            text-align: center;
+            padding: 15px;
+        }
+
+        #content {
+            background:gold;
+            width: 600px;
+            padding: 15px;
+            box-sizing: border-box;
+            height: 600px;
+            float: left; 
+        }
+
+        #sidebar {
+            background: rgb(209, 195, 112);
+            width: 360px;
+            padding: 15px;
+            box-sizing: border-box;
+            height: 600px;
+            float: right;
+        }
+
+        #clear-both {
+            clear: both;
+        }
+    </style>
+    <div id="wrapper">
+        <div id="header">
+            Layout web 2 cột - Float Css
+        </div>
+        <div id="wp-content">
+            <div id="content">
+                Content
+            </div>
+            <div id="sidebar">
+                Sidebar
+            </div>
+        </div>
+        <div id="clear-both"></div>
+        <div id="footer">
+            Unitop.vn
+        </div>
+    </div>
+</body>
+
+</html>

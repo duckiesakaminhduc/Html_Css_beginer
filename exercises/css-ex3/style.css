@@ -1,0 +1,43 @@
+.special-text {
+    color: red;
+}
+
+.special-text:hover {
+    color: blue;
+}
+
+.title {
+    background-color: grey;
+}
+
+.title:hover {
+    background-color: green;
+}
+
+h2 {
+    color: gold;
+}
+
+h2.text-color {
+    color: green;
+}
+
+
+
+input:checked+label {
+    color: royalblue;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#btn button {
+    background-color:chocolate ;
+    width: 200px;
+    height: 100px;
+    box-shadow: none;
+}
+
+

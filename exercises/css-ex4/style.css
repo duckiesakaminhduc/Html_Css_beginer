@@ -1,0 +1,41 @@
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-upcase {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-decor {
+    text-decoration: line-through;
+}
+
+.heading-2 {
+    text-align: justify;
+}
+
+.signature {
+    text-align: right;
+    color: red;
+}

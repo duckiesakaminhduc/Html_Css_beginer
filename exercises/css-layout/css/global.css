@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+.text-center {
+    text-align: center;
+}
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.container-full {
+    max-width: 100%;
+}
+
+.text-upcase {
+    text-transform: uppercase;
+}
+

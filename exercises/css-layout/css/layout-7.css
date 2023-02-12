@@ -1,0 +1,27 @@
+#header {
+    color: white;
+    background-color: #3498db;
+    padding: 15px;
+}
+
+#footer {
+    background-color: #34495e;
+    color: white;
+    padding: 8px;
+}
+
+#wp-content {
+    display: flex;
+}
+
+#sidebar-left,
+#sidebar-right {
+    background-color: #ecf0f1;
+    padding: 0px 10px;
+}
+
+#content {
+    padding: 0px 10px;
+    background-color: #bdc3c7;
+    min-height: 500px;
+}
